@@ -5,14 +5,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/",
-  //   element: <App />,
-  // },
-  // {
-  //   path: "products",
-  //   element: <Product1 />,
-  // },
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "products",
+    element: <Product1 />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
